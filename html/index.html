@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+      <link rel="stylesheet" type="text/css" href="/css/style.css">
+      <link rel="stylesheet" type="text/css" href="/css/animate.min.css">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+      <!--  Title-->
+      <title>SWS - Shop Web Search</title>
+   </head>
+   <body>
+      <header class="blog-header py-3">
+         <nav class="navbar navbar-expand-md navbar-light  center">
+            <div class="container  navbar-collapse justify-content-md-center ">
+               <a id="logo-area" href="/" class="navbar-brand d-flex align-items-center">
+               <img src="/img/logo.svg">
+               <span class="navbar-brand" href="/">BEST<br>market</span>
+               </a>
+               <form action="/pages/search" method="GET" id="main-search-form" class="center d-flex col-md-6 text-center align-items-center">
+                  <input name="search" id="main-search" class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search">
+                  <a><button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button></a>
+               </form>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse text-right" id="navbarCollapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-md-0 justify-content-center float-md-end">
+                     </li class="nav-item"><a class="nav-link" href="/" style="color: orange;">Главная</a></li>
+                     </li class="nav-item"><a class="nav-link" href="/pages/comparison">Сравнение</a></li>
+                     </li class="nav-item"><a class="nav-link" href="/pages/favorites">Избранное</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <content class="container">
+         <div class="container">
+            <div class="row carusel">
+               <div class="row featurette">
+                  <div class="col-md-7 mt-5">
+                     <h2 class="featurette-heading" id="main-page-title">BEST market </h2>
+                     <h2>
+                        <p class="lead " id="main-page-descr">выбирай и сравнивай<br> с аналогами.</p>
+                     </h2>
+                  </div>
+                  <div class="col-md-5">
+                     <img src="/img/imac.png">
+                  </div>
+               </div>
+            </div>
+            <div class="row feed ">
+               <div class="col-md-6  bg-grey b-white card text-center ">
+                  <img src="/img/iphones.png">
+                  <p>Электроника</p>
+                  <a href="">Подробнее  <i class="fas fa-arrow-right"></i></a>
+               </div>
+               <div class="col-md-6">
+                  <div class="row-1 bg-grey b-white card text-center">
+                     <img src="/img/mach.png">
+                     <p>Бытовая техника</p>
+                     <a href="">Подробнее  <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                  <div class="row-1 bg-grey b-white card text-center mt-3">
+                     <img src="/img/shoes.png">
+                     <p>Одежда и обувь</p>
+                     <a href="">Подробнее  <i class="fas fa-arrow-right"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </content>
+      <script type="text/javascript" src="/js/cookie-notice.js"></script>
+      <footer class="footer">
+         <div class="container pb-5">
+            <div class="orange-block">
+               <p>ЕЩЕ</p>
+            </div>
+         </div>
+      </footer>
+      <!--  Bootstrap Bundle with Popper -->
+      <script src="/js/bootstrap.bundle.min.js"></script>
+      <script src="/js/jquery-3.6.0.min.js"></script>
+   </body>
+</html>

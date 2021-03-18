@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'San Francisco Pro';
+    src: local('San Francisco Pro Display Regular'), local('San-Francisco-Pro-Display-Regular'),
+        url('/webfonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('/webfonts/SFProDisplay-Regular.woff') format('woff'),
+        url('/webfonts/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OCR A Extended';
+    src: local('San Francisco Pro Display Regular'), local('San-Francisco-Pro-Display-Regular'),
+        url('/webfonts/OCR-A-Extended.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+      font-family: 'San Francisco Pro';
+}
+body {
+    margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    background: #E5E5E5;
+}
+button {   
+    cursor: pointer;
+}
+
+
+i{
+  color: grey;
+}
+input:active,
+input:hover,
+input:focus {
+outline: none;
+}
+
+.card header {
+  padding: 10px;
+  background-color: rgb(41,73,130);
+  color: #fff;
+}
+
+.card header h2 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+.bg-red{
+	background-color: red;
+}
+
+#logo-area{
+  font-family: 'OCR A Extended';
+}
+.navbar-brand{
+  color: black;
+}
+.nav-link{
+  color: grey;
+}
+#main-search{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+.text-right{
+  text-align: right;
+}
+#main-search-form{
+  text-align: center;
+  margin-left: 10vw;
+
+}
+#main-search-form button{
+  background-color: unset;
+  border: none;
+}
+h1 {
+  font-family: 'OCR A Extended';
+}
+.bg-grey{
+  background-color: #F9F9F9;
+}
+.b-white{
+  border: 5px solid white;
+}
+.orange-block{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin-left: 70vw;
+  margin-bottom: 40px;
+  cursor: pointer;
+  display: flex;
+    align-items: flex-end;
+}
+.orange-block p {
+   margin-left: 10px;
+}
+a {
+  text-decoration: none !important;
+}
+.feed a{
+  color: orange;
+}
+.carusel h1{
+  margin-top: 100px;
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+#navbarCollapse{
+  margin-left: 3vw;
+}
+.nums ul li {
+  display: inline-block;
+  padding: 6px;
+}
+.nums ul li a{
+  color: grey;
+}
+.carusel img{
+  max-height: 470px;
+}
+.main-title{
+  font-family: 'San Francisco Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 117.34%;
+  /* identical to box height, or 73px */
+
+  letter-spacing: 0.005em;
+}
+.text-orange{
+  color: orange;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+.rate-stars i{
+  color: orange !important;
+  cursor: pointer;
+}
+.card-buttons i{
+  color: black;
+  border: 1px solid orange;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.card-buttons>i:hover{
+  transition: 1s;
+  background-color: orange;
+}
+.card-buttons {
+  display: inline-block;
+  margin-left: 10px;
+}
+#card-buttons{
+  padding-right: 0px !important;
+  margin-right: 0px !important;
+}
+.main-title-div{
+  padding-top: 10px;
+}
+.navbar-categories
+{
+  margin-top: 3vw;
+}
+.products{
+    margin-top: 0.5vw !important;
+}
+.border-b-gray{
+  border-bottom: 1px solid grey;
+}
+#main-page-title{
+  font-family: 'OCR A Extended';
+  font-size: 55px;
+  color:orange;
+}
+.feed img{
+  display: flex;
+}
+#main-page-descr{
+  font-size: 40px;
+}
+#cookie-notice {
+    position: fixed;
+    min-width: 100%;
+    height: auto;
+    z-index: 100000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 20px;
+    left: 0;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'San Francisco Pro';
+
+    padding: 20px;
+
+}
+
+.cn-position-bottom {
+    bottom: 0;
+}
+.standart-but{
+  background-color: unset;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+table img{
+ height: 200px;
+}
+#compare-table{
+  padding-top: 20px;
+}
+.mih-3{
+  height: 30% !important;
+}
+.feed img{
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+#product-page-title{
+  font-size: 55px;
+}
+.feed div{
+  border-radius: 0px;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #FFFF;        /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px;       /* закругления плашки */
+    background-color: grey;
+}
+.card{
+	border-radius: 0px !important;
+}
