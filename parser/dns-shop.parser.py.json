@@ -1,0 +1,15 @@
+{
+    "database":{
+        "host":"localhost",
+        "user":"parser",
+        "password":"parser",
+        "database":"best_hack"
+    },
+    "categories":[
+        {
+            "id":20,
+            "url":"https://www.dns-shop.ru/catalog/17a8a01d16404e77/smartfony/?p=%d"
+        }
+    ],
+    "siteid": 1
+}
